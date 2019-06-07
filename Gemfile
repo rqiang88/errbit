@@ -81,6 +81,9 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller', platform: 'ruby'
   gem 'meta_request'
+  gem 'ed25519'
+  gem 'rbnacl', '>= 3.2', '< 5.0'
+  gem 'bcrypt_pbkdf'
 end
 
 group :test do
